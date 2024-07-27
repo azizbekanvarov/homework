@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  font-family: sans-serif;
+  a {
+    text-decoration: none;
+  }
+
+  ul,
+  ol {
+    list-style: none;
+  }
+
+  .container {
+    width: 90%;
+  }
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-logo {
+  display: flex;
+  img {
+    width: 32px;
+  }
+
+  h4 {
+    font-weight: 400;
+    font-size: 32px;
+  }
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+}
+
+.header-search input {
+  width: 400px;
+  padding-left: 20px;
+  height: 25px;
+}
+
+.header-search button {
+  padding: 6px 24px;
+  background-color: #00b207;
+  border: none;
+  color: #fff;
+}
+
+.header-end {
+  display: flex;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  img {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #333333;
+  height: 60px;
+  margin-bottom: 30px;
+
+  div {
+    display: flex;
+    gap: 20px;
+    p {
+      color: #fff;
+    }
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    a {
+      color: dimgray;
+    }
+
+    a:hover {
+      color: #fff;
+    }
+  }
+}
+
+.shop {
+  background-image: url(../assets/images/hero-bg.jpg);
+  background-size: 50vw;
+  height: 500px;
+  background-repeat: no-repeat;
+  padding-left: 50px;
+  padding-top: 50px;
+
+  h2 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: #cce3d4;
+    margin-bottom: 20px;
+  }
+
+  button {
+    margin-top: 20px;
+    margin-left: -10px;
+    padding: 12px 40px;
+    border: none;
+    color: #00b207;
+    font-size: 18px;
+    border-radius: 20px;
+  }
+}
+
+.off {
+  background-image: url(../assets/images/hero-bg2.jpg);
+  background-size: 25vw;
+  height: 200px;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+  padding-left: 30px;
+
+  p {
+    color: dimgray;
+  }
+
+  h5 {
+    font-size: 18px;
+    color: #00b207;
+  }
+}
+
+.best {
+  background-image: url(../assets/images/hero-bg3.jpg);
+  background-size: 25vw;
+  height: 190px;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding-top: 30px;
+
+  h5 {
+    margin-left: 150px;
+  }
+
+  h3 {
+    margin-left: 115px;
+  }
+
+  h4 {
+    margin-top: 20px;
+    color: #00b207;
+    margin-left: 150px;
+  }
+}
+
+.hero-left {
+  margin-left: 750px;
+  margin-top: -300px;
+}
